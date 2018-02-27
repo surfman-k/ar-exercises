@@ -8,7 +8,7 @@ puts "----------"
 
 @store2 = Store.find(2)
 
-@store2.update(name: "Winners")
+@store1.update(name: "Winners")
 
 puts @store1.name
 puts @store2.name
